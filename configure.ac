@@ -198,11 +198,7 @@ POPT_CFLAGS=""
 PYTHON_CFLAGS=""
 if test x"$GCC" = xyes
 then
-    CFLAGS="$CFLAGS -MD \
--W -Wall -Wimplicit \
--Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings \
--Waggregate-return -Wstrict-prototypes -Wmissing-prototypes \
--Wnested-externs -Wmissing-declarations -Wno-cast-align -Wno-unused-parameter"
+    CFLAGS="$CFLAGS -MD"
 
     # -Wuninitialized requires -O
     case "$CFLAGS" in "-O"*|*" -O"*)
