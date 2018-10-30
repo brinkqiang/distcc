@@ -18,7 +18,7 @@ Copyright (c) 2013-2018 brinkqiang (brink.qiang@gmail.com)
 
 ## Intro
 distcc
-```
+
 Distcc + Xcode Integration
 ==========================
 
@@ -102,7 +102,6 @@ typical case, three machines are 2.6 times faster than one.
 
 distcc is distributed under the GNU General Public Licence v2.
 
-```
 ## Contacts
 [![Join the chat](https://badges.gitter.im/brinkqiang/distcc/Lobby.svg)](https://gitter.im/brinkqiang/distcc)
 
