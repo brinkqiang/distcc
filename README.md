@@ -1,9 +1,32 @@
+# distcc
+
+Copyright (c) 2013-2018 brinkqiang (brink.qiang@gmail.com)
+
+[distcc GitHub](https://github.com/brinkqiang/distcc)
+
+## Build status
+| [Linux][lin-link] | [MacOSX][osx-link] | [Windows][win-link] |
+| :---------------: | :----------------: | :-----------------: |
+| ![lin-badge]      | ![osx-badge]       | ![win-badge]        |
+
+[lin-badge]: https://travis-ci.org/brinkqiang/distcc.svg?branch=master "Travis build status"
+[lin-link]:  https://travis-ci.org/brinkqiang/distcc "Travis build status"
+[osx-badge]: https://travis-ci.org/brinkqiang/distcc.svg?branch=master "Travis build status"
+[osx-link]:  https://travis-ci.org/brinkqiang/distcc "Travis build status"
+[win-badge]: https://ci.appveyor.com/api/projects/status/github/brinkqiang/distcc?branch=master&svg=true "AppVeyor build status"
+[win-link]:  https://ci.appveyor.com/project/brinkqiang/distcc "AppVeyor build status"
+
+## Intro
+distcc
+```
 Distcc + Xcode Integration
 ==========================
 
 Install
 ```
 yum install binutils-devel -y
+sh configure
+make install
 ```
 			
 This is a fork of: 						
@@ -78,3 +101,9 @@ is nearly linearly scalable for small numbers of machines: for a
 typical case, three machines are 2.6 times faster than one.
 
 distcc is distributed under the GNU General Public Licence v2.
+
+```
+## Contacts
+[![Join the chat](https://badges.gitter.im/brinkqiang/distcc/Lobby.svg)](https://gitter.im/brinkqiang/distcc)
+
+## Thanks
