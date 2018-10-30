@@ -13,15 +13,16 @@ yum -y install binutils-devel
 
 # pushd thirdparty/depends_path
 # libtoolize && aclocal && autoheader && autoconf && automake --add-missing
-# sh configure
+sh configure
+
 # popd
 
-rm -rf build
-mkdir build
-pushd build
-cmake -DCMAKE_BUILD_TYPE=relwithdebinfo ..
-cmake --build .
-popd
+# rm -rf build
+# mkdir build
+# pushd build
+# cmake -DCMAKE_BUILD_TYPE=relwithdebinfo ..
+# cmake --build .
+# popd
 
 # popd
 
