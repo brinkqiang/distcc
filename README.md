@@ -25,6 +25,7 @@ Distcc + Xcode Integration
 Install
 ```
 yum install binutils-devel -y
+
 sh configure
 make install
 ```
