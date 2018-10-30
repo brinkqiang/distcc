@@ -1,5 +1,10 @@
 Distcc + Xcode Integration
 ==========================
+
+Install
+```
+yum install binutils-devel -y
+```
 			
 This is a fork of: 						
 
