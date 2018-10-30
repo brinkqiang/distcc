@@ -13,6 +13,7 @@ yum -y install binutils-devel
 
 # pushd thirdparty/depends_path
 # libtoolize && aclocal && autoheader && autoconf && automake --add-missing
+sh autogen.sh
 sh configure --disable-Werror
 make -j1
 # popd
