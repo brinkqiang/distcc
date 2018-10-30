@@ -16,6 +16,8 @@ yum -y install binutils-devel
 sh autogen.sh
 sh configure --disable-Werror
 make -j1
+make install
+cp hosts /etc/distcc/hosts
 # popd
 
 # rm -rf build
