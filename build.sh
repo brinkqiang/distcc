@@ -18,6 +18,8 @@ sh configure --disable-Werror
 make -j1
 make install
 cp hosts /etc/distcc/hosts
+adduser distcc
+
 # popd
 
 # rm -rf build
